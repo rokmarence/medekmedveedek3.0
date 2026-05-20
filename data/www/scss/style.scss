@@ -192,17 +192,17 @@ body {
         url("../img/homepage.png") center / cover no-repeat;
       display: flex;
       align-items: center;
-      padding: 80px 0;
+      padding: 90px 0;
       color: white;
     }
   
     .home-hero-box {
-      max-width: 620px;
+      max-width: 1020px;
       background:
         linear-gradient(rgba(248, 181, 29, 0.88), rgba(248, 181, 29, 0.88)),
         url("../img/pattern.png") center / cover;
       border-radius: 0 22px 22px 0;
-      padding: 55px 70px;
+      padding: 35px 70px;
     }
   
     .home-hero-box h1 {
