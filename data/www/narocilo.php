@@ -146,6 +146,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <option value="Cvetlični med" <?php echo $selectedHoney === 'Cvetlični med' ? 'selected' : ''; ?>>Cvetlični med</option>
                 <option value="Borovničev med" <?php echo $selectedHoney === 'Borovničev med' ? 'selected' : ''; ?>>Borovničev med</option>
                 <option value="Ajdov med" <?php echo $selectedHoney === 'Ajdov med' ? 'selected' : ''; ?>>Ajdov med</option>
+                <option value="Malinin med" <?php echo $selectedHoney === 'Malinin med' ? 'selected' : ''; ?>>Malinin med</option>
               </select>
             </div>
 
