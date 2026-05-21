@@ -12021,6 +12021,15 @@ body {
 /* =========================
    HOME PAGE
 ========================= */
+.narocilo-page .narocilo-hero {
+  min-height: 430px;
+  background: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)), url("../img/narocilo.png") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 90px 0;
+  color: white;
+}
+
 .home-page {
   overflow-x: hidden;
 }
@@ -12118,9 +12127,11 @@ body {
   background: var(--honey);
   margin-top: 10px;
 }
-.home-page .product-card.featured {
-  border: 7px solid #1594ff;
-  padding: 18px;
+.home-page {
+  /*.product-card.featured {
+    border: 7px solid #1594ff;
+    padding: 18px;
+  }*/
 }
 .home-page .home-btn {
   border-radius: 999px;
