@@ -5,10 +5,10 @@
             <div class="row noga-vsebina-ovitek g-4">
                 <div class="col-md-4 d-flex flex-column align-items-center align-items-md-start ps-md-5">
                     <ul class="noga-povezave list-unstyled m-0 text-center text-md-start">
-                        <li><a href="index.html">DOMOV</a></li>
-                        <li><a href="nasazgodba.html">NAŠA ZGODBA</a></li>
-                        <li><a href="ponudba.html">PONUDBA</a></li>
-                        <li><a href="kontakt.html">KONTAKT</a></li>
+                        <li><a href="index.php">DOMOV</a></li>
+                        <li><a href="nasazgodba.php">NAŠA ZGODBA</a></li>
+                        <li><a href="ponudba.php">PONUDBA</a></li>
+                        <li><a href="kontakt.php">KONTAKT</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 d-flex flex-column align-items-center justify-content-center">
