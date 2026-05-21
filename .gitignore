@@ -1,2 +1,5 @@
 mysql/
 node_modules/
+.DS_Store
+mysql/
+node_modules/
