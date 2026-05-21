@@ -39,7 +39,7 @@
             <h3>Cvetlični med</h3>
             <p>10,00€</p>
           </div>
-          <a href="#" class="btn btn-dark btn-sm">Naroči</a>
+          <a href="narocilo.php" class="btn btn-dark btn-sm">Naroči</a>
         </div>
       </div>
 
@@ -50,7 +50,7 @@
             <h3>Borovničev med</h3>
             <p>10,00€</p>
           </div>
-          <a href="#" class="btn btn-dark btn-sm">Naroči</a>
+          <a href="narocilo.php" class="btn btn-dark btn-sm">Naroči</a>
         </div>
       </div>
 
@@ -61,7 +61,7 @@
             <h3>Ajdov med</h3>
             <p>10,00€</p>
           </div>
-          <a href="#" class="btn btn-dark btn-sm">Naroči</a>
+          <a href="narocilo.php" class="btn btn-dark btn-sm">Naroči</a>
         </div>
       </div>
     </div>
@@ -81,7 +81,7 @@
             in medu, ki prihaja iz slovenskega čebelnjaka. Naš med pridelujemo
             na naraven način, z veliko skrbjo za čebele in okolje.
           </p>
-          <a href="#" class="btn btn-dark btn-sm">Preberi več</a>
+          <a href="nasazgodba.php" class="btn btn-dark btn-sm">Preberi več</a>
         </div>
       </div>
 
