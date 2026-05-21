@@ -25,6 +25,10 @@
                 </li>
 
                 <li class="nav-item">
+                    <a class="nav-link" href="ponudba.php">PONUDBA</a>
+                </li>
+
+                <li class="nav-item">
                     <a class="nav-link" href="narocilo.php">NAROČILO</a>
                 </li>
 

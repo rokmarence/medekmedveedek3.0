@@ -12316,6 +12316,14 @@ body {
   color: white;
 }
 
+.glava-ponudba {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../slike/banner_ponudba.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+  color: white;
+}
+
 .glava-home {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/homepage.png");
   background-size: cover;
@@ -12489,6 +12497,151 @@ body {
   .noga-povezave li {
     text-align: center;
   }
+}
+hero-banner {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-image: url("../slike/banner_ponudba.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+hero-banner .content {
+  position: relative;
+  z-index: 2;
+  margin-left: 90px;
+  color: white;
+}
+hero-banner .content h1, hero-banner .content .h1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+hero-banner .content p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+hero-banner .content .line {
+  width: 380px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.kategorije-pill {
+  display: inline-flex;
+  border: 1.5px solid #000;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+}
+@media (max-width: 400px) {
+  .kategorije-pill {
+    width: 100%;
+    max-width: 360px;
+  }
+}
+.kategorije-pill .kat-btn {
+  flex: 1;
+  background: transparent;
+  border: none;
+  border-right: 1.5px solid #000;
+  padding: 8px 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #000;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: normal;
+}
+.kategorije-pill .kat-btn:last-child {
+  border-right: none;
+}
+.kategorije-pill .kat-btn.active {
+  background: #000;
+  color: #fff;
+}
+@media (max-width: 360px) {
+  .kategorije-pill .kat-btn {
+    font-size: 0.75rem;
+    padding: 6px 8px;
+  }
+}
+
+.card-grid {
+  display: flex;
+  gap: 170px;
+  padding: 80px;
+  justify-content: center;
+  font-family: sans-serif;
+}
+@media (max-width: 1000px) {
+  .card-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.card {
+  position: relative;
+  background: #ffc107;
+  border-radius: 20px;
+  width: 670px;
+  height: 280px;
+  padding: 30px;
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+.card .content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card .content h2, .card .content .h2 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+.card .content p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin: 15px 0;
+}
+.card .footer-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+.card .footer-card .price {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.card .footer-card .btn-order {
+  background: #222;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.card .footer-card .btn-order:hover {
+  opacity: 0.8;
+}
+.card .image-wrapper {
+  position: absolute;
+  right: -100px;
+  top: -110px;
+  width: 300px;
+}
+.card .image-wrapper img {
+  width: 100%;
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.2));
 }
 
 /*# sourceMappingURL=style.css.map */
