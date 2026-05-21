@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+<?php include 'header.php'; ?>
 <!--<nav class="navbar navbar-expand-lg navbar-light bg-honey fixed-top">
   <div class="container">
     <a class="navbar-brand fw-bold" href="#"> Honey</a>
@@ -132,33 +132,8 @@
 
 </main>
 
-<!--
-<footer class="footer">
-  <div class="container text-center">
-    <h2>Narejen v Sloveniji</h2>
 
-    <div class="row mt-5">
-      <div class="col-md-4">
-        <p>DOMOV<br>NAŠA ZGODBA<br>PONUDBA<br>KONTAKT</p>
-      </div>
-
-      <div class="col-md-4">
-        <h3>Honey</h3>
-        <button class="btn btn-outline-dark btn-sm">Slovenščina</button>
-        <button class="btn btn-outline-dark btn-sm">English</button>
-      </div>
-
-      <div class="col-md-4">
-        <p>Politika zasebnosti<br>Pogoji<br>Sodelovanje</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="footer-bottom">
-    © Medek Medvedek
-  </div>
-</footer> -->
-
+<?php include 'footer.php'; ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

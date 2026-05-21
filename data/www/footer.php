@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Footer</title>
-</head>
-<body>
+
     <footer class="noga-rumena">
         <div class="container py-5">
             <h2 class="noga-glavni-napis text-center mb-5">Narejen v Sloveniji</h2>
@@ -35,11 +27,7 @@
                 </div>
             </div>
         </div>
-    </footer>
-
-    <div class="spodnji-sivi-trak text-white text-center py-3">
+        <div class="spodnji-sivi-trak text-white text-center py-3">
         <small>&copy; Medek Medvedek</small>
     </div>
-
-</body>
-</html>
+    </footer>

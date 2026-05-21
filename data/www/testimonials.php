@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Testimonials</title>
-</head>
-<body>
 
       <section class="mnenja-strank py-5">
         <div class="container">
@@ -61,5 +52,3 @@
         </div>
     </section>
 
-</body>
-</html>
